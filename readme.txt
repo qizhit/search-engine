@@ -1,4 +1,3 @@
-Student ID: 16169703, 50572482, 45765950
 Student Name: James Liu, Sijie Guo, Qizhi Tian
 
 
