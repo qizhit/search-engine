@@ -1,0 +1,46 @@
+Test Queries:
+
+machine learning
+ACM
+master of software engineering
+cristina lopes
+to be not to be
+2018
+cs122b
+ics33
+research opportunity in summer
+public
+thornton
+mailman
+winter
+shilab
+dance
+informatics
+release
+undergraduate
+database for machine learning
+hack at uci and hackathon
+
+
+Improvement:
+
+1. Stop words in Search:
+    Initially, we searched all tokens from the query, but found that the results were not sufficiently relevant.
+    Then, we filtered out stop words if they constituted less than 40% of the whole query.
+    This way, the search accuracy and speed increased (e.g master of software engineering).
+
+2. Intersection:
+    Initially, we used the OR operation (i.e., adding all URLs for every token in the query), 
+    which resulted in larger but less accurate results, especially for the long query (e.g hack at uci and hackathon). 
+    Then, we changed the OR operation to the AND operation.
+
+3. TF-IDF: 
+    This is for ranking. At first, we calculated the TF score in the index and the IDF score in the search. 
+    However, we found that our initial understanding of calculating TF-IDF was incorrect. 
+    We realized that every URL for different tokens may have a different TF-IDF. 
+    So, we calculated TF-IDF in the index and added the common URL's TF-IDF during the search to rank the results.
+
+4. Seek Position: 
+    We wrote the inverted index to multiple CSV files and then merged them into a single storage.csv. 
+    Initially, we stored the position in the partial storage file, causing the position to be incorrect. 
+    After revision, we stored the correct positions and ran the seek() function properly.
