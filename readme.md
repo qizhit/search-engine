@@ -1,19 +1,16 @@
+# README - UCI Information Retrieval Assignment 3
 **Notes:** Originally developed at UC Irvine and hosted under my school GitHub account ([QZT168](https://github.com/QZT168)), this project is now forked to my personal GitHub for continued access.
 
 Student Name: Qizhi Tian, James Liu, Sijie Guo
 
-## README - UCI Information Retrieval Assignment 3
-==================================
-Overview
-==================================
+## Overview
+
 This project is an implementation of a search engine for the UCI Information Retrieval course. The project consists of three main components:
 1. Indexer: Builds an inverted index from the provided HTML documents.
 2. Search Component: Allows users to perform searches using Boolean queries and ranks the results using tf-idf scoring.
 3. Search Report: Provides a report of search results for specific queries.
 
-==================================
-How to Use the Software
-==================================
+## How to Use the Software
 
 1. Prerequisites:
 - Python 3.x
