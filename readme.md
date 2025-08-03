@@ -1,7 +1,8 @@
-Student Name: James Liu, Sijie Guo, Qizhi Tian
+**Notes:** Originally developed at UC Irvine and hosted under my school GitHub account ([QZT168](https://github.com/QZT168)), this project is now forked to my personal GitHub for continued access.
 
+Student Name: Qizhi Tian, James Liu, Sijie Guo
 
-README - UCI Information Retrieval Assignment 3
+## README - UCI Information Retrieval Assignment 3
 ==================================
 Overview
 ==================================
