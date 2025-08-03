@@ -1,5 +1,5 @@
-# README - UCI Information Retrieval Assignment 3
-**Notes:** Originally developed at UC Irvine and hosted under my school GitHub account ([QZT168](https://github.com/QZT168)), this project is now forked to my personal GitHub for continued access.
+# README - Efficient Web Crawler and Search Engine
+**Notes:** Originally developed at UC Irvine and hosted under my school GitHub account ([QZT168](https://github.com/QZT168)), this project is now forked to my personal GitHub for long-term access.
 
 Student Name: Qizhi Tian, James Liu, Sijie Guo
 
